@@ -37,12 +37,6 @@
           (lambda () (setq indent-tabs-mode t)))
 
 ;; For Go development, add some Go-specific settings
-(setenv "GOPATH"
-        (concat
-            "/home/valczir/dev/golang"
-        )
-)
-(setq exec-path (append exec-path '("/home/valczir/dev/golang/bin")))
 (setq gofmt-command "goimports")
 (require 'go-eldoc)
 ;(require 'auto-complete)
